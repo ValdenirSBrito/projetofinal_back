@@ -11,7 +11,6 @@ const mongoose = require('mongoose');
 const tarefaModel = new mongoose.Schema({
   nome: { type: String, required: true },
   descricao: { type: String, required: true },
-  logo: { type: String, required: true },
   prioridade: { type: Number, required: true },
   prazo: { type: String, required: true },
   status: { type: String, required: true },
