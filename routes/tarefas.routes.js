@@ -3,8 +3,6 @@ const express = require('express');
 
 const TarefasController = require('./../controllers/tarefas.controllers');
 
-
-
 const router = express.Router();
 
 const tarefasController  = new TarefasController;
