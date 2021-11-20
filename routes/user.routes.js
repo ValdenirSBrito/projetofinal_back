@@ -5,7 +5,7 @@ const userController = new UserController();
 
 const router = express.Router();
 
-//[POST] - /adduser - cadastra ummm novo  usuario
+
 router.post('/adduser', userController.createUser)
 
 module.exports = router;
